@@ -10,11 +10,19 @@ font-family: 'Karla', sans-serif; /*This is for the body*/
     align-items: center;
 }
 
+header{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
 .header-content{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 375px;
+  width: 100%;
     justify-content: space-between;
     margin-top: 1.5rem;
 }
