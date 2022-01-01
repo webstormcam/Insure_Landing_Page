@@ -58,3 +58,9 @@ width: 1024px;
 max-width: 100%;
 max-height: 100%;
 }
+
+.intro-words{
+    background-color: #2D2641;
+    width: 100%;
+    text-align: center;
+}
