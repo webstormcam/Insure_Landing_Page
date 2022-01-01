@@ -3,3 +3,26 @@
     font-family: 'DM Serif Display', serif; /*This is for headings*/
 font-family: 'Karla', sans-serif; /*This is for the body*/
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 375px;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.logo{
+    margin-left: 2rem;
+}
+
+.ham{
+    margin-right: 2rem;
+}
