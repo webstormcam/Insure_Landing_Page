@@ -50,7 +50,7 @@ main{
  
     flex-direction: column;
     align-items: center;
-    margin-bottom: 12rem;
+    margin-bottom: 9rem;
     position: relative;
     
 }
@@ -117,4 +117,15 @@ h2{
  
     flex-direction: column;
     align-items: center;
+}
+
+hr{
+    border: 0;
+   clear:both;
+   display:block;
+   width: 40%;               
+   background-color:#C396C6;
+   height: 1px;
+   margin-bottom: 3rem;
+   
 }
