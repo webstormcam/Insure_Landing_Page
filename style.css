@@ -194,3 +194,8 @@ right: 0;
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
+.threepoints{
+    display: flex;
+    flex-direction: column;
+}
