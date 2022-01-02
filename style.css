@@ -38,6 +38,10 @@ header{
     margin-right: 1.7rem;
 }
 
+#ham:hover{
+    cursor: pointer;
+}
+
 main{
     width: 100%;
     display: flex;
