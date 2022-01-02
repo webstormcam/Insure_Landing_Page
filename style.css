@@ -133,13 +133,22 @@ hr{
 }
 
 #dropdown{
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: #2C2830;
     align-items: center;
     position: absolute;
     width: 375px;
     top: 3rem;
+    padding-bottom: 20rem;
+    background-image: url('imgs/bg-pattern-mobile-nav.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+ 
 }
 
 #toplist{
@@ -150,10 +159,34 @@ hr{
 }
 
 #toplist li{
-    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 
 #toplist a{
     text-decoration: none;
     color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+
+}
+
+.drop-button{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+}
+
+.drop-button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
