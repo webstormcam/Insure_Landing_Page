@@ -8,6 +8,7 @@ font-family: 'Karla', sans-serif; /*This is for the body*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 header{
@@ -26,6 +27,7 @@ header{
     align-items: center;
   width: 100%;
     justify-content: space-between;
+    position: relative;
 }
 
 .logo{
@@ -51,7 +53,7 @@ main{
     flex-direction: column;
     align-items: center;
     margin-bottom: 9rem;
-    position: relative;
+    
     
 }
 
@@ -128,4 +130,30 @@ hr{
    height: 1px;
    margin-bottom: 3rem;
    
+}
+
+#dropdown{
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2830;
+    align-items: center;
+    position: absolute;
+    width: 375px;
+    top: 3rem;
+}
+
+#toplist{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#toplist li{
+    margin-bottom: 2rem;
+}
+
+#toplist a{
+    text-decoration: none;
+    color: #fff;
 }
