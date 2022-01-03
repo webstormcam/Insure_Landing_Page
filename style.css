@@ -241,6 +241,9 @@ h3{
     background-color: #2D2641;
     width: 90%;
     text-align: center;
+    background-image: url('imgs/bg-pattern-how-we-work-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .cubearea h2{
@@ -248,4 +251,8 @@ h3{
     font-size: 40px;
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+.cubearea a{
+    margin-bottom: 7rem;
 }
