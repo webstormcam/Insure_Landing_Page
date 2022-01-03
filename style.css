@@ -200,3 +200,14 @@ right: 0;
     display: flex;
     flex-direction: column;
 }
+
+.point{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+}
