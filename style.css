@@ -201,13 +201,34 @@ right: 0;
     flex-direction: column;
 }
 
+
+.firstpoint{
+    margin-top: 2rem;
+}
+
 .point{
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+}
+
+.point p{
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 h3{
     font-family: 'DM Serif Display', serif;
     font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+.svgicon{
+    width: 86px;
+    height: 86px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
