@@ -244,6 +244,7 @@ h3{
     background-image: url('imgs/bg-pattern-how-we-work-mobile.svg');
     background-repeat: no-repeat;
     background-position: top right;
+    align-items: center;
 }
 
 .cubearea h2{
@@ -254,5 +255,10 @@ h3{
 }
 
 .cubearea a{
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 0.5rem;
+   width: 150px;
 }
