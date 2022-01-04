@@ -276,6 +276,8 @@ footer{
 .socialArea{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
     
 
 }
@@ -284,8 +286,15 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 200px;
+    margin-top: 1.5rem;
 }
 
 .btmlogo{
     width: 7rem;
+}
+
+.btmhr{
+    width: 85%;
+    margin-top: 2rem;
 }
