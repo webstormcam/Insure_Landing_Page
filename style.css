@@ -263,3 +263,29 @@ h3{
     padding: 0.5rem;
    width: 150px;
 }
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    width: 100%;
+    align-items: center;
+}
+
+.socialArea{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btmlogo{
+    width: 7rem;
+}
