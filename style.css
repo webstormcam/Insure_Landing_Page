@@ -305,9 +305,26 @@ footer{
 .btminfo{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .info{
     display: flex;
     flex-direction: column;
+}
+
+.info h3{
+    color: #837D88;
+    font-size: 13px;
+    font-family: 'Karla', sans-serif; /*This is for the body*/
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.btmlist li{
+    font-family: 'Karla', sans-serif; /*This is for the body*/
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 1rem;
 }
