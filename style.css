@@ -328,3 +328,8 @@ footer{
     font-size: 13px;
     margin-bottom: 1rem;
 }
+
+.btmlist li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
