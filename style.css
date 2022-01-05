@@ -361,9 +361,10 @@ footer{
     .intro-words-button{
         background-image: none;
         text-align: left;
-       
-        width: 40%;
+        background-color: transparent;
+        width: 48%;
         margin-right: 2rem;
+        padding-left: 1rem;
       
     }
 
