@@ -278,7 +278,9 @@ footer{
     flex-direction: column;
     width: 100%;
     align-items: center;
-    
+    background-image: url('imgs/bg-pattern-footer-mobile.svg');
+    background-repeat: no-repeat;
+    padding-top: 4rem;
 
 }
 
