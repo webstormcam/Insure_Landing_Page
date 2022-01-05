@@ -66,6 +66,10 @@ main{
     right: 0.1rem;
 }
 
+.desktop-slidelines{
+    display: none;
+}
+
 .family{
 width: 1024px;
 max-width: 100%;
@@ -341,13 +345,24 @@ footer{
         background-image:url('imgs/bg-pattern-intro-right-desktop.svg');
         background-position: right ;
         background-repeat: no-repeat;
+        justify-content: center;
+    }
+
+    .mobile-slidelines{
+       display: none;
+    }
+
+    .desktop-slidelines{
+        display: block;
+        position: absolute;
+        left: 0.1rem;
     }
 
     .intro-words-button{
         background-image: none;
         text-align: left;
-        padding-left: 2rem;
-        width: 55%;
+       
+        width: 40%;
         margin-right: 2rem;
       
     }
@@ -374,5 +389,6 @@ footer{
     .family{
         order: 2;
         width: 300px;
+        margin-left: 5rem;
     }
 }
