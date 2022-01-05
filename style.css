@@ -301,3 +301,13 @@ footer{
     margin-top: 2rem;
     background-color: grey;
 }
+
+.btminfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
