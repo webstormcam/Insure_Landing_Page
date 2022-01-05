@@ -333,3 +333,19 @@ footer{
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media screen and (min-width:768px) {
+    .top{
+        flex-direction: row;
+        background-color: #2D2641;
+    }
+
+    .intro-words-button{
+        background-image:none;
+    }
+    
+
+    .family{
+        order: 2;
+    }
+}
