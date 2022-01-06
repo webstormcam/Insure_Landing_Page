@@ -408,4 +408,14 @@ footer{
        
        
     }
+
+    .btminfo{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 80%;
+        text-align: left;
+       
+    }
 }
