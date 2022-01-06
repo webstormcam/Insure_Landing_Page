@@ -338,14 +338,29 @@ footer{
     cursor: pointer;
 }
 
+.top-background-lines{
+    display: none;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width:25rem ;
+    
+}
+
 @media screen and (min-width:768px) {
     .top{
         flex-direction: row;
         background-color: #2D2641;
-        background-image:url('imgs/bg-pattern-intro-right-desktop.svg');
+        /* background-image:url('imgs/bg-pattern-intro-right-desktop.svg');
         background-position: right ;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
         justify-content: center;
+        position: relative;
+    }
+
+    .top-background-lines{
+        display: block;
+        
     }
 
     .mobile-slidelines{
@@ -389,7 +404,8 @@ footer{
 
     .family{
         order: 2;
-        width: 300px;
-        margin-left: 5rem;
+        width: 320px;
+       
+       
     }
 }
