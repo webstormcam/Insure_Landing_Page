@@ -347,6 +347,10 @@ footer{
     
 }
 
+.btm-footer-desktop{
+    display: none;
+}
+
 @media screen and (min-width:768px) {
     .top{
         flex-direction: row;
@@ -432,7 +436,15 @@ footer{
         margin-left: 1rem;
     }
 
-    .socials{
-        
+
+    footer{
+        position: relative;
+    }
+
+    .btm-footer-desktop{
+        display: block;
+        position: absolute;
+        left: 0rem;
+        top: 3.5rem;
     }
 }
