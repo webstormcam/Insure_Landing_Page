@@ -146,12 +146,14 @@ hr{
     background-color: #2C2830;
     align-items: center;
     position: absolute;
-    width: 375px;
+    width: 100%;
     top: 3rem;
     padding-bottom: 20rem;
     background-image: url('imgs/bg-pattern-mobile-nav.svg');
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: contain;
+    
     
 margin-left: auto;
 margin-right: auto;
@@ -476,5 +478,9 @@ footer{
 
     #ham{
         display: none;
+    }
+
+    #dropdown{
+        display: none !important;
     }
 }
