@@ -351,6 +351,10 @@ footer{
     display: none;
 }
 
+.desktop-options{
+    display: none;
+}
+
 @media screen and (min-width:768px) {
     .top{
         flex-direction: row;
@@ -446,5 +450,27 @@ footer{
         position: absolute;
         left: 0rem;
         top: 3.5rem;
+    }
+
+    .desktop-options{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .desktop-options ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .desktop-options ul li{
+        font-size: 13px;
+    }
+
+    
+
+    #ham{
+        display: none;
     }
 }
