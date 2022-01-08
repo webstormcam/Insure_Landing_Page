@@ -357,6 +357,10 @@ footer{
     display: none;
 }
 
+.tablet-hr{
+    display: none;
+}
+
 @media screen and (min-width:768px) {
     .top{
         flex-direction: row;
@@ -390,6 +394,7 @@ footer{
         width: 48%;
         margin-right: 2rem;
         padding-left: 1rem;
+      
       
     }
 
@@ -500,4 +505,36 @@ footer{
     #dropdown{
         display: none !important;
     }
+
+ 
+}
+
+@media screen and (min-width:1024px) {
+    hr{
+        align-self: flex-start;
+    }
+ 
+  
+ 
+    .different{
+     align-self: flex-start;
+     font-size: 4.5rem;
+    }
+ 
+    .threepoints{
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .point p{
+        padding: 0rem;
+    }
+    .point{
+        align-items: flex-start;
+        padding-left:2rem ;
+        padding-right: 2rem;
+        text-align: left;
+    }
+
+  
 }
