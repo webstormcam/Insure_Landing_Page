@@ -587,7 +587,5 @@ footer{
 }
 
 @media screen and (min-width:1440px) {
-    .family{
-        position: relative;
-    }
+   
 }
