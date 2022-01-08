@@ -511,11 +511,15 @@ footer{
 }
 
 @media screen and (min-width:1024px) {
-    hr{
+    .middlehr{
         align-content: flex-start;
-        margin-left: 4rem;
-        margin-top: 3rem;
+        margin-left: 2rem;
+       
         width: 200px;
+    }
+
+    .middle{
+        max-width: 1122px;
     }
  
   
@@ -523,7 +527,7 @@ footer{
     .different{
      align-self: flex-start;
      font-size: 4.5rem;
-     margin-left: 4rem;
+     margin-left: 2rem;
     }
  
     .threepoints{
@@ -539,6 +543,28 @@ footer{
         padding-left:2rem ;
         padding-right: 2rem;
         text-align: left;
+    }
+
+    .cubearea{
+        flex-direction: row;
+        align-items: baseline;
+        background-image: url('imgs/bg-pattern-how-we-work-desktop.svg');
+        justify-content: space-around;
+        
+    }
+
+    .cubearea h2 {
+        color: #fff;
+        font-size: 40px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 1rem;
+        width: 400px;
+        text-align: left;
+    }
+
+    footer{
+        margin-top: 4rem;
     }
 
   
