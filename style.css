@@ -513,7 +513,7 @@ footer{
 @media screen and (min-width:1024px) {
     .middlehr{
         align-content: flex-start;
-        margin-left: 2rem;
+        margin-left: 4rem;
        
         width: 200px;
     }
@@ -527,12 +527,13 @@ footer{
     .different{
      align-self: flex-start;
      font-size: 4.5rem;
-     margin-left: 2rem;
+     margin-left: 4rem;
     }
  
     .threepoints{
         flex-direction: row;
         align-items: baseline;
+        margin-left: 2rem;
     }
 
     .point p{
@@ -568,4 +569,10 @@ footer{
     }
 
   
+}
+
+@media screen and (min-width:1440px) {
+    .family{
+        position: relative;
+    }
 }
