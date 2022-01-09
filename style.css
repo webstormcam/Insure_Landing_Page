@@ -379,6 +379,11 @@ footer{
         position: relative;
     }
 
+    /* .top-items{
+        display: flex;
+        flex-direction: row;
+    } */
+
     .top-background-lines{
         display: block;
         
@@ -611,6 +616,16 @@ footer{
     .header-content{
         max-width: 1122px;
     }
+
+    .family{
+        position: relative;
+        width: 400px;
+        top: 5rem;
+    }
+
+    /* .top-items{
+        max-width: 1122px;
+    } */
 
   
 }
