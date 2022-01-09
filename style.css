@@ -368,6 +368,11 @@ footer{
     display: none;
 }
 
+.top-items{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-width:768px) {
     .top{
         flex-direction: row;
@@ -375,14 +380,14 @@ footer{
         /* background-image:url('imgs/bg-pattern-intro-right-desktop.svg');
         background-position: right ;
         background-repeat: no-repeat; */
-        /* justify-content: center; */
+        justify-content: center;
         position: relative;
     }
 
-    /* .top-items{
+    .top-items{
         display: flex;
         flex-direction: row;
-    } */
+    }
 
     .top-background-lines{
         display: block;
@@ -623,9 +628,9 @@ footer{
         top: 5rem;
     }
 
-    /* .top-items{
+    .top-items{
         max-width: 1122px;
-    } */
+    }
 
   
 }
