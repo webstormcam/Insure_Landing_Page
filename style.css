@@ -375,7 +375,7 @@ footer{
         /* background-image:url('imgs/bg-pattern-intro-right-desktop.svg');
         background-position: right ;
         background-repeat: no-repeat; */
-        justify-content: center;
+        /* justify-content: center; */
         position: relative;
     }
 
@@ -518,6 +518,23 @@ footer{
         width: 90%;
     }
 
+    .header-content{
+        align-items: center;
+    }
+
+    .logo{
+        margin-left: 4rem;
+    }
+
+    .intro-words-button {
+      margin-left: 2rem;
+    }
+
+    .desktop-options{
+        margin-right: 2rem;
+    }
+
+   
  
 }
 
@@ -581,6 +598,14 @@ footer{
 
     footer{
         margin-top: 4rem;
+    }
+
+    header{
+    justify-content: center;
+    }
+
+    .header-content{
+        max-width: 1122px;
     }
 
   
