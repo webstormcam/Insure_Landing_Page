@@ -663,5 +663,10 @@ footer{
 }
 
 @media screen and (min-width:1440px) {
-   
+    .family{
+        position: relative;
+        width: 550px;
+        top: 5rem;
+        height: auto;
+    }
 }
