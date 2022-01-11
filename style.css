@@ -587,11 +587,11 @@ footer{
     }
 
     .middle{
-        max-width: 1122px;
+        max-width: 1300px;
     }
 
     .footercontent{
-        max-width: 1122px;
+        max-width: 1300px;
     }
  
   
@@ -645,7 +645,7 @@ footer{
     }
 
     .header-content{
-        max-width: 1122px;
+        max-width: 1300px;
     }
 
     .family{
@@ -656,13 +656,26 @@ footer{
     }
 
     .top-items{
-        max-width: 1122px;
+        max-width: 1300px;
     }
 
   
 }
 
 @media screen and (min-width:1440px) {
+    .top-hr{
+        margin-top: 1rem;
+    }
+
+    .desktop-options{
+        margin-right: 4rem;
+    }
+
+    h1{
+        font-size: 72px;
+        width: 570px;
+        margin-top: 7rem;
+    }
     .family{
         position: relative;
         width: 550px;
