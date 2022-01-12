@@ -242,7 +242,7 @@ h3{
 }
 
 .social:hover{
-    filter: invert(0%) sepia(0%) saturate(8%) hue-rotate(253deg) brightness(100%) contrast(100%);
+    filter: invert(15%) sepia(35%) saturate(667%) hue-rotate(215deg) brightness(89%) contrast(95%);
 }
 
 .svgicon{
