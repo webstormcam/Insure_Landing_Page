@@ -395,6 +395,10 @@ footer{
     display: none;
 }
 
+.image{
+    background-color: #2D2641;
+}
+
 @media screen and (min-width:768px) {
     .top{
         flex-direction: row;
