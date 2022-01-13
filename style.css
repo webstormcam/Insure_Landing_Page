@@ -694,6 +694,18 @@ footer{
   
 }
 
+
+@media screen and (min-width:1169px) {
+    .family{
+        width: 500px;
+    }
+
+    h1{
+        font-size: 65px;
+        width: 500px;
+    }
+}
+
 @media screen and (min-width:1440px) {
     .top-hr{
         margin-top: 1rem;
