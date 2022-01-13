@@ -588,6 +588,7 @@ footer{
         margin-bottom: 0rem;
         position: relative;
         top: 4rem;
+     
         background-color: #fff;
     }
     .image{
@@ -689,6 +690,11 @@ footer{
 
     .desktop-options{
         margin-right: 4rem;
+    }
+
+    .top-hr{
+       
+     margin-top: 1rem;
     }
 
   
