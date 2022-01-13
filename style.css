@@ -481,6 +481,7 @@ footer{
         justify-content: space-between;
         width: 80%;
         text-align: left;
+        z-index: 500;
        
     }
 
