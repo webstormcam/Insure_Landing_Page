@@ -190,6 +190,11 @@ right: 0;
 
 }
 
+#toplist a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .drop-button{
     color: #fff;
     text-decoration: none;
@@ -210,6 +215,8 @@ right: 0;
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
+
 
 .threepoints{
     display: flex;
@@ -243,6 +250,7 @@ h3{
 
 .social:hover{
     filter: invert(15%) sepia(35%) saturate(667%) hue-rotate(215deg) brightness(89%) contrast(95%);
+    cursor: pointer;
 }
 
 .svgicon{
@@ -530,6 +538,13 @@ footer{
         font-size: 13px;
         font-family: 'Karla', sans-serif;
     }
+
+    .desktop-options ul li:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+
 
     .desktop-options a{
         font-size: 13px;
