@@ -748,4 +748,12 @@ footer{
         top: 5rem;
         height: auto;
     }
+
+    .cubearea h2 {
+        color: #fff;
+        font-size: 56px;
+        width: 600px;
+        margin-bottom: 3rem;
+       
+    }
 }
